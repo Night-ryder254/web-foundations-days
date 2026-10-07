@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day 5 - Users API</title>
+</head>
+<body>
+  <main>
+    <h1>Users</h1>
+
+    <button id="load-users" type="button">Load Users</button>
+
+    <label for="filter-input">Filter users by name</label>
+    <input id="filter-input" type="search" placeholder="Type a name..." autocomplete="off">
+
+    <p id="status" role="status">Click "Load Users" to fetch users.</p>
+
+    <ul id="users-list"></ul>
+  </main>
+
+  <script src="users.js" defer></script>
+</body>
+</html>
